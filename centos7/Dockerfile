@@ -26,4 +26,4 @@ RUN yum install -y curl wget tar bzip2 unzip vim-enhanced passwd sudo yum-utils 
 
 EXPOSE 22
 
-ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisord.conf"]
+#ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisord.conf"]
